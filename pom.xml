@@ -99,13 +99,13 @@
 	    </snapshotRepository>
 	</distributionManagement> -->
 	<distributionManagement>
-		<repositories>
+		
         <repository>
           <id>nexus</id>
           <name>Rep proxy</name>
           <url>http://ec2-13-232-206-215.ap-south-1.compute.amazonaws.com:8081/repository/sai-proxy/</url>
           </repository>
-      </repositories>
+      
 		</distributionManagement>
 	
 	
