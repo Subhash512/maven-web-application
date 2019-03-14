@@ -97,6 +97,8 @@
 	      <name>Snapshot Nexus Repository </name>
 	      <url>http://ec2-13-233-93-238.ap-south-1.compute.amazonaws.com:8081/repository/sai-snapshot/</url>
 	    </snapshotRepository>
+		 </distributionManagement>
+		 <distributionManagement>
 		<repositories>
         <repository>
           <id>nexus</id>
