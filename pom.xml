@@ -100,13 +100,7 @@
 		 </distributionManagement> 
 		
 		 
-		<repositories>
-        <repository>
-          <id>nexus</id>
-          <name>Repository for JDK 1.4 builds</name>
-          <url>http://ec2-13-127-150-247.ap-south-1.compute.amazonaws.com:8081/repository/sai-proxy/</url>
-            </repository>
-			</repositories>
+		
      
       
 	
