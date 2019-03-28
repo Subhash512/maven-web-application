@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.1-</version>
+	<version>1.1-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://ec2-13-127-150-247.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.128.215:9000/</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -86,25 +86,18 @@
 
 	</dependencies>
 	
-	 <distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name> Releases Nexus Repository</name>
-	      <url>http://13.233.197.27:8081/artifactory/mvn-release/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.233.113.232:8081/repository/mt-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
-	      <url>http://13.233.197.27:8081/artifactory/mvn-snapshot/</url>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.233.113.232:8081/repository/mt-snapshots/</url>
 	    </snapshotRepository>
-		 </distributionManagement> 
-		
-		 
-		
-     
-      
-	
-	
+	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
